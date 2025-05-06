@@ -1,0 +1,15 @@
+exercice 1:
+- un ressrouce groupe (majuscule et se termine par -WE-001) + storage account (minuscule et commence par st) + blob container (minuscule)
+ 
+exercice 2:
+- un ressource groupe (majuscule doit commencer par RG-) + un service plan(majuscule et commence par SP- et se termine par -001) + webapp en php (minuscule et commence par app- et se termine par -we)
+ 
+exercice 3:
+- un ressource groupe (minuscule) + un container groupe (minuscule et commence par aci-) + container registry (minuscule et commence par acr et se termine par we)
+ 
+ 
+fichiers à créer 
+- main.tf
+- provider.tf
+- variables.tf
+- terraform.tfvars 
