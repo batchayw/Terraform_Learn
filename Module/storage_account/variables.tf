@@ -25,5 +25,5 @@ locals {
   sku = "Standard"
   env = "prod"
   storageaccount_name = lower(var.storageaccount_name)
-  rg_name = upper("rg_${var.rgname}_001")
+  rg_name_1 = upper("rg_${var.rgname}_001")
 }
