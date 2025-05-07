@@ -1,0 +1,16 @@
+ exercice 4
+- un ressrouce groupe (majuscule et se termine par -WE-001) + un service plan(minuscule et commence par sp- ) + webapp en container avec une image de votre choix (minuscule et commence par app- et se termine par -we
+ 
+ 
+exercice 5 :
+un ressource groupe (minuscule) + +un storage account en minscule + un fileshare azure + un container groupe (minuscule et commence par aci-) + créer un volume et ratacher le à un container du container groupe
+ 
+exercice 6 : 
+un ressource groupe en minscule qui commence par (rg-)+ un vnet en minscule qui commence par (vn-) + un subnet rattaché à ce vnet qui commence par (sb)+ une vm windows (qui commence par vm et se termine avec int) elle ne doit pas dépasser 15 caractères au total. cette vm doit être rattaché au subnet qui a été créé avant et vous devez variabliser le nom et le sku impérativement pour le reste des paramètre de la vm vous avez le choix + un network security group qui commence par (NSG-) et qui doit être rattaché au subnet. il faut créer dans ce nsg une règle d'autorisation de tous les ip entrante sur le port 3389 et une règle pour bloquer tous les ip entrante sur le port 22
+ 
+fichiers à créer 
+- main.tf
+- provider.tf
+- variables.tf
+- terraform.tfvars
+
